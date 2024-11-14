@@ -1,0 +1,18 @@
+.content {
+  width: 70%;
+  position: relative;
+  background-color: #d3d3d3;
+}
+
+.grey-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.statue-image {
+  max-width: 60%;
+  max-height: 80%;
+  object-fit: cover;
+}

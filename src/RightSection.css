@@ -1,0 +1,23 @@
+.right-section {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0; /* Grey background color */
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .statue-image {
+    position: relative;
+    max-width: 50%;
+    z-index: 2; /* Place statue above background */
+  }
+  
